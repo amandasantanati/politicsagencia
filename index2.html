@@ -445,16 +445,6 @@
     background: linear-gradient(135deg, var(--navy) 0%, #1A4060 100%);
     display: flex; align-items: center; justify-content: center;
   }
-  .case-header-icon {
-    width: 64px; height: 64px; border-radius: 50%;
-    background: rgba(255,255,255,0.10); border: 2px solid rgba(255,255,255,0.20);
-    display: flex; align-items: center; justify-content: center;
-  }
-  .case-header-icon img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-  }
   .case-header-accent {
     position: absolute; bottom: 0; left: 0; right: 0; height: 4px; background: var(--blue);
   }
@@ -648,7 +638,7 @@
   <div class="container">
     <a href="#inicio" class="logo nav-logo">
       <div class="logo-p">
-        <img src="politicsagencia.jpg" alt="Politics Agência">
+        <img src="images/politicsagencia.jpg" alt="Politics Agência">
       </div>
       <div class="logo-words">
         <span class="logo-main" style="color:#fff">Politics</span>
@@ -742,64 +732,12 @@
       </div>
     </div>
 
-    <!-- Right: image -->
     <div class="hero-visual">
-
-      <div class="hero-tag">
-        <div class="tag-dot"></div>
-        <span>Consultoria Ativa</span>
-      </div>
-
       <div class="hero-frame">
-        <!-- SVG placeholder - substitua por <img src="foto-equipe.jpg" alt="Equipe Politics Agência"> -->
-        <svg viewBox="0 0 540 432" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" width="100%" height="100%">
-          <defs>
-            <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%"   stop-color="#0D2A3F"/>
-              <stop offset="100%" stop-color="#12355A"/>
-            </linearGradient>
-            <radialGradient id="glow1" cx="30%" cy="40%" r="40%"><stop offset="0%" stop-color="#2E7AB8" stop-opacity=".25"/><stop offset="100%" stop-color="#2E7AB8" stop-opacity="0"/></radialGradient>
-            <radialGradient id="glow2" cx="70%" cy="70%" r="35%"><stop offset="0%" stop-color="#2E7AB8" stop-opacity=".20"/><stop offset="100%" stop-color="#2E7AB8" stop-opacity="0"/></radialGradient>
-          </defs>
-          <rect width="540" height="432" fill="url(#hg)"/>
-          <rect width="540" height="432" fill="url(#glow1)"/>
-          <rect width="540" height="432" fill="url(#glow2)"/>
-          <!-- circuit grid overlay -->
-          <g stroke="#2E7AB8" stroke-width=".4" opacity=".3">
-            <line x1="0" y1="72"  x2="540" y2="72"/><line x1="0" y1="144" x2="540" y2="144"/>
-            <line x1="0" y1="216" x2="540" y2="216"/><line x1="0" y1="288" x2="540" y2="288"/>
-            <line x1="0" y1="360" x2="540" y2="360"/>
-            <line x1="90"  y1="0" x2="90"  y2="432"/><line x1="180" y1="0" x2="180" y2="432"/>
-            <line x1="270" y1="0" x2="270" y2="432"/><line x1="360" y1="0" x2="360" y2="432"/>
-            <line x1="450" y1="0" x2="450" y2="432"/>
-          </g>
-          <!-- Stylised women silhouettes -->
-          <ellipse cx="100" cy="155" rx="30" ry="30" fill="#2E7AB8" opacity=".55"/>
-          <path d="M70 432 Q70 250 100 230 Q130 250 130 432Z" fill="#2E7AB8" opacity=".40"/>
-          <ellipse cx="210" cy="140" rx="34" ry="34" fill="#4A9AD4" opacity=".50"/>
-          <path d="M175 432 Q175 235 210 215 Q245 235 245 432Z" fill="#4A9AD4" opacity=".38"/>
-          <ellipse cx="325" cy="125" rx="38" ry="38" fill="#2E7AB8" opacity=".60"/>
-          <path d="M285 432 Q285 220 325 198 Q365 220 365 432Z" fill="#2E7AB8" opacity=".45"/>
-          <ellipse cx="435" cy="150" rx="30" ry="30" fill="#4A9AD4" opacity=".48"/>
-          <path d="M405 432 Q405 248 435 230 Q465 248 465 432Z" fill="#4A9AD4" opacity=".36"/>
-          <!-- Table suggestion -->
-          <rect x="40" y="318" width="460" height="10" rx="3" fill="#C9A84C" opacity=".18"/>
-          <!-- Laptops on table -->
-          <rect x="70"  y="300" width="72" height="46" rx="3" fill="#FFFFFF" opacity=".09"/>
-          <rect x="185" y="300" width="72" height="46" rx="3" fill="#FFFFFF" opacity=".09"/>
-          <rect x="300" y="300" width="72" height="46" rx="3" fill="#FFFFFF" opacity=".09"/>
-          <rect x="415" y="300" width="72" height="46" rx="3" fill="#FFFFFF" opacity=".09"/>
-          <!-- Gold sparkles -->
-          <circle cx="490" cy="38"  r="6" fill="#C9A84C" opacity=".50"/>
-          <circle cx="32"  cy="38"  r="4" fill="#C9A84C" opacity=".40"/>
-          <circle cx="510" cy="400" r="5" fill="#C9A84C" opacity=".35"/>
-          <circle cx="22"  cy="390" r="3" fill="#C9A84C" opacity=".40"/>
-          <!-- Watermark -->
-          <text x="270" y="88" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="11" font-weight="700" fill="rgba(255,255,255,.18)" letter-spacing="4">POLITICS AGÊNCIA</text>
-        </svg>
+        <img src="images/campanha.png" alt="Campanha">
       </div>
-    </div><!-- /hero-visual -->
-  </div><!-- /container -->
+    </div>
+  </div>
 
   <div class="scroll-cue">
     <span class="scroll-cue-text">Scroll</span>
@@ -827,7 +765,7 @@
           </svg>
         </div>
         <h3 class="svc-name">Consultoria de Imagem &amp; Comunicação</h3>
-        <p class="svc-desc">Construímos sua identidade política com autenticidade. Posicionamento de marca pessoal, discurso, guarda-roupa e presença pública coerentes com sua trajetória e valores.</p>
+        <p class="svc-desc">Construímos sua identidade com autenticidade. Posicionamento de marca pessoal, discurso, guarda-roupa e presença pública coerentes com sua trajetória e valores.</p>
       </div>
 
       <div class="svc-card">
@@ -871,19 +809,19 @@
       <div class="pilar-card">
         <div class="pilar-num">01</div>
         <h3 class="pilar-name">Narrativa Autêntica</h3>
-        <p class="pilar-desc">Sua história é sua força. Comunicar quem você realmente é gera conexão real com o eleitorado e diferencia sua candidatura de todas as outras.</p>
+        <p class="pilar-desc">Sua história é sua força. Comunicar quem você realmente é gera conexão real com os seguidores e diferencia sua imagem de todas as outras.</p>
       </div>
 
       <div class="pilar-card">
         <div class="pilar-num">02</div>
         <h3 class="pilar-name">Consistência de Imagem</h3>
-        <p class="pilar-desc">Identidade visual, tom de voz e mensagens alinhados em todos os canais constroem credibilidade duradoura e reconhecimento de marca política.</p>
+        <p class="pilar-desc">Identidade visual, tom de voz e mensagens alinhados em todos os canais constroem credibilidade duradoura e reconhecimento de sua marca.</p>
       </div>
 
       <div class="pilar-card">
         <div class="pilar-num">03</div>
         <h3 class="pilar-name">Escuta Ativa do Território</h3>
-        <p class="pilar-desc">Antes de falar, ouça. Mapear as demandas reais da comunidade é o primeiro passo para uma campanha que transforma vidas concretas.</p>
+        <p class="pilar-desc">Antes de falar, ouça. Mapear as demandas reais da comunidade é o primeiro passo para uma trajetória que transforma vidas de forma concretas.</p>
       </div>
 
     </div>
@@ -897,7 +835,7 @@
 
     <div class="about-photo-wrap">
       <div class="about-photo-frame">
-        <img src="foto-debora.jpg" alt="Débora Andrade">
+        <img src="images/foto-debora.jpg" alt="Débora Andrade">
       </div>
       <div class="about-badge">
         <div class="badge-num">+20</div>
@@ -910,7 +848,7 @@
       <h2 class="section-title">O que é e quem faz a<br><span style="color:var(--blue)">Politics Agência?</span></h2>
       <div class="section-rule"></div>
       <p class="about-desc">
-        Somos uma agência especializada em consultoria de imagem, comunicação estratégica, marketing político e eleitoral, com foco em lideranças femininas e progressistas. Apoiamos candidaturas, organizações do terceiro setor e PMEs que querem transformar realidades. Débora Andrade possui mestrado e doutorado especial em comunicação (UFS e UFBA), além de MBA em Marketing Político e Comunicação Governamental (IDP), com mais de 20 anos de experência na área.
+        Somos uma agência especializada em consultoria de imagem, comunicação estratégica, marketing político e eleitoral, com foco em lideranças femininas e progressistas. Apoiamos candidaturas, organizações do terceiro setor e PMEs que querem transformar realidades. Débora Andrade possui Mestrado e outorado especial em Comunicação (UFS e UFBA), além de MBA em Marketing Político e Comunicação Governamental (IDP), com mais de 20 anos de experência na área.
       </p>
 
       <blockquote class="about-quote">
@@ -940,7 +878,7 @@
       <h2 class="section-title">Política se Faz com<br>Representatividade</h2>
       <div class="section-rule"></div>
       <p class="why-desc">
-        Acreditamos que política de verdade inclui. Na Politics Agência, unimos rigor acadêmico, experiência prática e ativismo para construir campanhas que amplificam as vozes que mais precisam ser ouvidas.
+        Acreditamos que política de verdade inclui. Na Politics Agência, unimos rigor acadêmico, experiência prática e ativismo para construir estratégias que amplificam as vozes que mais precisam ser ouvidas.
       </p>
       <div class="why-items">
         <div class="why-item"><div class="why-dot"></div><span>+Expertise e experiência andando lado a lado</span></div>
@@ -987,15 +925,13 @@
       <!-- Case 1 -->
       <div class="case-card">
         <div class="case-header">
-          <div class="case-header-icon">
-            <img src="foto-debora.jpg" alt="Débora Andrade">
-          </div>
+          <img src="images/header-lindabrasil.png" alt="Linda Brasil">
           <div class="case-header-accent"></div>
         </div>
         <div class="case-body">
           <span class="case-tag">
             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-            Câmara Municipal
+            Campanha Eleitoral
           </span>
           <h3 class="case-name">Campanha Vencedora:<br>Deputada Estadual Linda Brasil (PSOL-SE)</h3>
           <p class="case-desc">Estratégia completa de comunicação digital e territorial para a candidata a deputada estadual por Sergipe. Construímos a identidade da campanha, o tom da comunicação nas redes sociais e coordenamos a presença nas comunidades.</p>
@@ -1016,9 +952,7 @@
       <!-- Case 2 -->
       <div class="case-card">
         <div class="case-header" style="background:linear-gradient(135deg,#1A3D5C 0%,#0D2A3F 100%)">
-          <div class="case-header-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-          </div>
+          <img src="images/header-adriana.png" alt="Adriana Accorsi">
           <div class="case-header-accent" style="background:var(--gold)"></div>
         </div>
         <div class="case-body">
@@ -1045,18 +979,16 @@
       <!-- Case 3 -->
       <div class="case-card">
         <div class="case-header" style="background:linear-gradient(135deg,#0D2A3F 0%,#162E45 100%)">
-          <div class="case-header-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-          </div>
+          <img src="images/header-chenya.png" alt="Chenya Coutinho">
           <div class="case-header-accent" style="background:var(--blue-light)"></div>
         </div>
         <div class="case-body">
           <span class="case-tag" style="color:var(--blue-light);background:rgba(74,154,212,0.12)">
             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
-            Terceiro Setor
+            Figura Pública
           </span>
-          <h3 class="case-name">Comunicação Institucional:<br>ONG Casa de Mar - Instituto Aláfia Social</h3>
-          <p class="case-desc">Construção do site e da comunicação estratégica para as redes sociais da organização da sociedade civil focada em direitos dos povos de tradição de matriz africana e povos tradicionais ribeirinhos. Criação de materiais para captação de recursos e campanhas de conscientização.</p>
+          <h3 class="case-name">Rebranding:<br>Pesquisadora e palestrante Chenya Coutinho</h3>
+          <p class="case-desc">Reposicionamento de imagem, estratégia e produção de conteudo para as redes sociais da pesquisadora de Saúde Pública e palestrante Chenya Coutinho.</p>
           <div class="case-results">
             <div class="case-stat"><div class="case-stat-n">DIVERSAS</div><div class="case-stat-l">Campanhas lançadas</div></div>
             <div class="case-stat-sep"></div>
@@ -1074,9 +1006,7 @@
       <!-- Case 4 -->
       <div class="case-card">
         <div class="case-header" style="background:linear-gradient(135deg,#1E4A1E 0%,#0D2A1E 100%)">
-          <div class="case-header-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-          </div>
+          <img src="images/header-jeanpaul.png" alt="Jean Paul Prattes">
           <div class="case-header-accent" style="background:#4ADE80"></div>
         </div>
         <div class="case-body">
@@ -1084,10 +1014,10 @@
             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/></svg>
             Mandato Político
           </span>
-          <h3 class="case-name">Rebranding e Comunicação:<br>Senador Jean Paul Prattes (PT-RN)</h3>
-          <p class="case-desc">Estruturação do tom do mandato e da estratégia de comunicação digital para o mandato. Produção de conteúdo, engajamento de seguidores e criação de "advogados da marca""".</p>
+          <h3 class="case-name">Rebranding e Comunicação Digital:<br>Senador Jean Paul Prattes (PT-RN)</h3>
+          <p class="case-desc">Estruturação do tom do mandato e da estratégia de comunicação digital. Produção de conteúdo, engajamento de seguidores e criação de "advogados da marca".</p>
           <div class="case-results">
-            <div class="case-stat"><div class="case-stat-n">2 FRENTES</div><div class="case-stat-l">Senado e Estado</div></div>
+            <div class="case-stat"><div class="case-stat-n">FRENTES</div><div class="case-stat-l">Senado e Estado</div></div>
             <div class="case-stat-sep"></div>
             <div class="case-stat"><div class="case-stat-n">AUMENTO</div><div class="case-stat-l">EXPONENCIAL DA AUDIÊNCIA</div></div>
             <div class="case-stat-sep"></div>
@@ -1108,15 +1038,15 @@
 
         <div>
           <p class="cases-quote-text">
-            "A Politics Agência entendeu que minha candidatura precisava de <em>autenticidade</em>, não de fórmulas prontas. Eles construíram uma narrativa que era genuinamente minha — e o eleitorado sentiu isso."
+            "Trabalhar com a Politics foi o divisor de águas que eu precisava. Débora entendeu minha essência e transformou minha estratégia de conteúdo. Hoje, meu posicionamento reflete <em>autoridade e propósito</em>. Uma parceria estratégica e impecável!"
           </p>
           <div class="cases-quote-author">
             <div class="cases-quote-avatar">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="1.8"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
             </div>
             <div>
-              <div class="cases-quote-name">Linda Brasil</div>
-              <div class="cases-quote-role">Primeira deputada estadual trans eleita por Sergipe</div>
+              <div class="cases-quote-name">Chenya Coutinho</div>
+              <div class="cases-quote-role">Pesquisadora e palestrante</div>
             </div>
           </div>
         </div>
@@ -1204,7 +1134,7 @@
       <!-- Mini logo -->
       <div style="margin-top:44px;display:flex;align-items:center;gap:10px;opacity:.4;">
         <div class="logo-p" style="width:32px;height:32px;border-radius:6px;background:var(--blue);">
-          <img src="politicsagencia.jpg" alt="Politics Agência">
+          <img src="images/politicsagencia.jpg" alt="Politics Agência">
         </div>
         <div>
           <div style="font-size:11px;font-weight:800;letter-spacing:2px;color:rgba(255,255,255,.7);text-transform:uppercase">Politics</div>
@@ -1255,7 +1185,7 @@
 
       <a href="#inicio" class="logo footer-logo">
         <div class="logo-p">
-          <img src="politicsagencia.jpg" alt="Politics Agência">
+          <img src="images/politicsagencia.jpg" alt="Politics Agência">
         </div>
         <div class="logo-words">
           <span class="logo-main" style="color:#fff">Politics</span>
